@@ -1,0 +1,703 @@
+
+
+/* globle style */
+body{
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/* <!--========== header style start ============= -->  */
+.home{
+    background-image:url(../images/intro-bg.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.navbar{
+z-index: 9999 !important;}
+
+ .navbar-nav .nav-link{
+  color: white !important;
+  transition: 1s;
+
+}
+.blue:hover{
+  color: #1900f8 !important;
+  transform: scale(1.1);
+}
+.navbar-brand{
+  font-size: 1.5rem;
+
+}
+
+.line{
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    height: 0.1rem  ;
+    transition: 1s ;
+}
+.line-home{
+    width: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    height: 0.1rem  ;
+    margin-left: 0.8rem;
+
+}
+.nav-item:hover .line{
+    width: 3rem;
+}
+.content-and-lyerimg{
+    background-color: rgba(00, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.content-and-lyerimg .text-morgan{
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+
+
+}
+
+
+.text-morgan::after{
+content: "";
+position: absolute;
+top: 100%;
+right: 38%; 
+font-size: 3rem;
+animation: Morgan  infinite ;
+animation-duration: 15s;
+}
+@keyframes Morgan  {
+    0% {
+      content: "|";
+    }
+    1% {
+      content: " D|";
+    }
+    2% {
+      content: " De|";
+    }
+    3% {
+      content: " Des|";
+    }
+    4% {
+      content: " Desi|";
+    }
+    5% {
+      content: " Desig|";
+    }
+    6% {
+      content: " Design |";
+    }
+    7% {
+      content: " Design|";
+    }
+     7% {
+      content: " Designe|";
+    }
+    8% {
+      content: " Designer|";
+    }
+    9% {
+      content: " Designe|";
+    }
+    10% {
+      content: " Design|";
+    }
+    11% {
+      content: "Design|";
+    }
+    12% {
+      content: " Desig|";
+    }
+    13% {
+      content: " Desi|";
+    }
+    14% {
+      content: " Des|";
+    }
+    15% {
+      content: " De|";
+    }
+    16% {
+      content: " D|";
+    }
+    17% {
+      content: " |";
+    }
+   
+    18% {
+      content: " |";
+    }
+    19% {
+      content: "  F|";
+    }
+    20% {
+      content: "  Fr";
+    }
+    21% {
+      content: "  Fre|";
+    }
+    22% {
+      content: "  Free|";
+    }
+    23% {
+      content: "  Freel|";
+    }
+    24% {
+      content: "  Freela|";
+    }
+    25% {
+      content: "  Freelan|";
+    }
+    26% {
+      content: "  Freelanc|";
+    }
+    27% {
+      content: "  Freelane|";
+    }
+    28% {
+      content: "  Freelaner|";
+    }
+    29% {
+      content: "  Freelane|";
+    }
+    30% {
+      content: "  Freelan|";
+    }
+    31% {
+      content: "  Freela|";
+    }
+    32% {
+      content: "  Freel|";
+    }
+    33% {
+      content: "  Free|";
+    }
+    34% {
+      content: "  Fre|";
+    }
+    35% {
+      content: "  Fr|";
+    }
+    36% {
+      content: "  F|";
+    }
+    37% {
+      content: " |";
+    }
+    38% {
+      content: "|";
+    }
+    39% {
+      content: "|";
+    }
+    40% {
+      content: "  p|";
+    }
+    41% {
+      content: "  ph|";
+    }
+    42% {
+      content: "  pho|";
+    }
+    43% {
+      content: "  phot|";
+    }
+    44% {
+      content: "  photo|";
+    }
+    45% {
+      content: "  photog|";
+    }
+    46% {
+      content: "  photogr|";
+    }
+    47% {
+      content: "  photogrp|";
+    }
+    48% {
+      content: "  photogrph|";
+    }
+    49% {
+      content: "  photogrphe|";
+    }
+    50% {
+      content: "  photogrpher|";
+    }
+    51% {
+      content: "  photogrphe|";
+    }
+    52% {
+      content: "  photogrph";
+    }
+    53% {
+      content: "  photogrp|";
+    }
+    54% {
+      content: "  photogr|";
+    }
+    55% {
+      content: "  photog|";
+    }
+    56% {
+      content: " photo|";
+    }
+    57% {
+      content: "  phot|";
+    }
+    58% {
+      content: "  pho |";
+    }
+    59% {
+      content: "  ph|";
+    }
+    60% {
+      content: "  p|";
+    }
+    61% {
+      content: "  |";
+    }
+    62% {
+      content: "|";
+    }
+    63% {
+      content: "|";
+    }
+    64% {
+      content: "  D|";
+    }
+    65% {
+      content: "  De|";
+    }
+    66% {
+      content: "  Des|";
+    }
+    67% {
+      content: "  Des|";
+    }
+    68% {
+      content: "  Desi|";
+    }
+    69% {
+      content: "  Desig|";
+    }
+    70% {
+      content: "  Design|";
+    }
+    71% {
+      content: "  Designe |";
+    }
+    72% {
+      content: "  Designer|";
+    }
+    73% {
+      content: "  Designe|";
+    }
+    74% {
+      content: "  Design|";
+    }
+    75% {
+      content: "  Desig|";
+    }
+    76% {
+      content: "  Desi|";
+    }
+    77% {
+      content: "  Des|";
+    }
+    78% {
+      content: "  De|";
+    }
+    79% {
+      content: " D|";
+    }
+    80% {
+      content: " |";
+    }
+    81% {
+      content: "|";
+    }
+    82% {
+      content: " D|";
+    }
+    83% {
+      content: " De|";
+    }
+    84% {
+      content: " Dev|";
+    }
+    85% {
+      content: " Deve|";
+    }
+    86% {
+      content: " Devel|";
+    }
+    87% {
+      content: " Develo|";
+    }
+    89% {
+      content: " Develop|";
+    }
+    90% {
+      content: " Develope|";
+    }
+    91% {
+      content: " Developer|";
+    }
+    92% {
+      content: " Develope|";
+    }
+    93% {
+      content: " Develop|";
+    }
+    94% {
+      content: " Develo|";
+    }
+    95% {
+      content: " Develo|";
+    }
+    96% {
+        content: " Devel|";
+      }
+      97% {
+        content: " Deve|";
+      }
+      98% {
+        content: " Dev|";
+      }
+      99% {
+        content: " De|";
+      }
+      100% {
+        content: " D|";
+      }
+
+  }
+  @media (max-width: 768px){
+    .content-and-lyerimg .text-morgan {
+      font-size: 1.8rem;
+      margin-top: 3rem;
+  }
+  .text-morgan::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    font-size: 1.8rem;
+
+    animation: Morgan infinite;
+    animation-duration: 15s;
+  }
+    
+  }
+/* <!--========== header style end ============= -->  */
+
+
+
+/* <!--========== section 1 style  start ============= -->  */
+  
+  .about{
+    background-color: rgb(245,245,245);
+  }
+  .iner-about{
+    width: 9%;
+    height: 0.2rem;
+   background-color: rgb(9,121,248);
+  }
+ .progress-bar{
+     height: 0.7rem;
+     border: none;
+ }
+ .progress{
+    height: 0.7rem;
+    background-color: #cde1f8;
+    height: .7rem;
+    border-radius: 0;
+    margin-bottom: 0.5rem;
+}
+.skil-progress p{
+    margin-bottom:0.5rem;
+}
+.tilte-section .globle-line{
+width: 3rem;
+background-color: rgb(0,120,255);
+height: 0.3rem;
+position: absolute;
+right: 49%;
+}
+
+@media (max-width:994px){
+  .imgimg{
+    width: 100%;
+  }  
+}
+
+/* <!--========== section 1 style  end ============= -->  */
+
+
+/* <!--========== section 2 style start ============= -->  */
+.services{
+    background-color: rgba(245, 245, 245, 0.884);
+}
+.services .items{
+  background-color: rgb(255, 253, 253);
+  border-radius: 5%;
+
+ 
+}
+.services .items:hover .ico-circle{
+  background-color: rgb(0, 120, 255);
+  box-shadow: 0 0 0 9px #c2deff;
+  color: white;
+}
+.ico-circle {
+
+ border-radius: 50%;
+  box-shadow: 0 0 0 10px #086afd;
+padding:2rem;
+text-align: center;
+  transition: 0.5s;
+}
+.ico-circle i{
+  
+}
+.sercil-work{
+
+  border-radius: 50%;
+   box-shadow: 0 0 0 10px #b2d6ff;
+ padding:1.3rem;
+ text-align: center;
+}
+/* <!--========== section 2 end start  style============= -->  */
+
+
+/* <!--========== section 3  start style ============= -->  */
+.background-blue{
+    background-image: url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+.background-blue::after  {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(29, 70, 253, 0.664);
+}
+.item-blue{
+    z-index: 99;
+}
+.icon-plus{
+color: blue;
+border: 2px solid;
+border-radius: 50% ;
+padding: 0.5rem;
+}
+.img-card-container img:hover{
+    transform: scale(1.3);
+}
+.card-img-top{
+    transition:1s  ;
+}
+.card{overflow: hidden;}
+
+.img-card-container{
+    overflow: hidden;
+}
+/* <!--========== section 3  end style ============= -->  */
+
+
+/* <!--========== section 4  start style ============= -->  */
+.carosul{
+  background-image: url(../images/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.carousl-lyer{
+  background-color: rgba(0, 162, 255, 0.4);
+}
+.carousel-indicators [data-bs-target]{
+  height: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+
+}
+/* <!--========== section 4  end style ============= -->  */
+
+
+
+/* <!--========== section 5  start style ============= -->  */
+
+.blog-travel .blog{
+
+position: relative;
+z-index: 99;
+bottom: 1rem;
+border-radius: 5%;
+color: white;
+
+}
+.blog .card-body  a{
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+.blog .card-body a:hover{
+  color: blue;
+}
+.blog .morgan-img-time a{
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+.morgan-img-time{
+  background-color: #F7F7F7;
+}
+.blog .morgan-img-time a:hover{
+  color: blue;
+}
+.morgan-img-time{
+      border: 1px solid rgba(0,0,0,.125);
+}
+/* <!--========== section 5  end style ============= -->  */
+
+
+
+/* <!--========== section 6  start  style ============= -->  */
+.form-bacground{
+  position: relative;
+  background-image: url(../images/overlay-bg.jpg);
+  background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+
+}
+.form-bacground::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  height:100%;
+  width:100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(6, 96, 230, 0.4);
+
+}
+.form-conatiner{
+  z-index: 999;
+  position: relative;
+  background-color: white;
+
+}
+.form-tiltle .line-form{
+width: 5rem;
+height: 0.2rem;
+background-color: rgba(65, 65, 255, 0.7);
+}
+.form-tiltle h5{
+  font-size: 2rem;
+}
+.icon-color-from{
+  color: rgb(71, 71, 231);
+  transition: 1s;
+}
+.form-icon-circle{
+
+  border-radius: 50%;
+
+padding: 0.3rem;
+text-align: center;
+  transition: 0.5s;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 0 0 0 3px #1a75fd;
+
+}
+.form-icon-circle:hover{
+  box-shadow: 0 0 0 3px #8dbbff;
+  background-color: blue;
+  color: white;
+}
+.btn-primary{
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+.btn-primary:hover{
+  box-shadow: 0 0 0 3px #8dbbff;
+}
+/* <!--========== section 6  end  style ============= -->  */
+
+
+/* <!--========== footer  start style ============= -->  */
+.footer-content{
+ 
+  background-color: rgb(0,98,211);
+  color: white;
+
+}
+
+
+/* <!--========== footer  end style ============= -->  */
+
+
+
+/* sild bar color box start */
+.bg-color-box{
+  left: -117px;
+  z-index: 999999999;
+  cursor: pointer;
+
+}
+
+.icon-box{
+  height: fit-content;
+  cursor: pointer;
+}
+.ul-box li{
+  width: 20px;
+  height: 20px;
+  background-color: #1900f8;
+  display: inline-block;
+}
+/* sild bar color box end */
+
+/* btn scroll top */
+.btnbtn{
+  display: none ;
+  position: fixed;
+  right: 10px;
+  top: 688px;
+  z-index: 999999999999999;
+}
+/* loding page  */
+#loding{
+  background-color: #086afd;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
